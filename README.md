@@ -23,8 +23,8 @@ What changed:
 
 ## Purpose of This Project
 
-This is a generic template for [http://en.wikipedia.org/wiki/LaTeX](LaTeX)
-documents using [http://www.komascript.de/](KOMA Script) classes which are
+This is a generic template for [LaTeX](http://en.wikipedia.org/wiki/LaTeX)
+documents using [KOMA Script](http://www.komascript.de/) classes which are
 pretty common at least in German spoken countries.
 
 The template does *not* want to contain each and every trick but should
@@ -38,7 +38,7 @@ of your work rather than start fiddling around with the look of the document.
 Several typographic optimizations are included in order to get a final document
 that is optimized to deliver your content.
 
-Please do read [https://github.com/novoid/LaTeX-KOMA-template/blob/master/Template-Documentation.pdf](Template-Documentation.pdf).
+Please do read [Template-Documentation.pdf](https://github.com/novoid/LaTeX-KOMA-template/blob/master/Template-Documentation.pdf).
 
 ## Example Documents
 
@@ -91,7 +91,7 @@ This template is licensed under a [[https://creativecommons.org/licenses/by-sa/3
 - In case you modify this template and share the derived template: You
   must attribute the template such that you do not remove
   (co-)authorship of Karl Voit & LosFuzzys and you must not remove the URLs to 
-  [https://github.com/novoid/LaTeX-KOMA-template](the original repository on GitHub).
+  [the original repository on GitHub](https://github.com/novoid/LaTeX-KOMA-template).
 - If you alter, transform, or build a new template upon this template,
   you may distribute the resulting template only under the same or
   similar license to this one.
@@ -101,4 +101,4 @@ This template is licensed under a [[https://creativecommons.org/licenses/by-sa/3
 
 ## What Is Still Work in Progress?
 
-Please have a look at the file "[[https://github.com/novoid/LaTeX-KOMA-template/blob/master/template/todos.org][template/todos.org]]".
+Please have a look at the file "[template/todos.org](https://github.com/novoid/LaTeX-KOMA-template/blob/master/template/todos.org)".
