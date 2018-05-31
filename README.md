@@ -1,7 +1,27 @@
 
-* LaTeX-KOMA-template
+# LaTeX-KOMA-template
 
-** Purpose of This Project
+This template is based on Karl Voit's LaTeX-KOMA template. It includes
+(currently) changes from @dkales and @kaydoubleu.
+
+What changed:
+
+* Laterality: ~~twoside~~ &rarr; oneside
+* Fontsize: ~~12pt~~ &rarr; 11pt
+* Biblatexstyle: ~~authoryear~~ &rarr; alphabetic
+* Dispositioncolor?
+* Titlepage: ~~Thesis_TU_Graz~~ &rarr; Thesis_TU_Graz_-_kazemakase
+  - According to:
+    http://portal.tugraz.at/portal/page/portal/TU_Graz/Services/BDR/Oeffentlichkeitsarbeit/CD/Logo%20Anwendungsrichtlinien
+  - Slight changes on the title page
+* Minor changes in *template/pdf_settings.tex
+  - pagecolor: not set 
+  - pdfpagemode: ~~None~~ &rarr; UseNone
+* Minor changes in *template/preamble.tex*
+  - DispositionColor: ~~{RGB}{\mydispositioncolor}~~ &rarr; {gray}{0} (black) 
+  - Options of package biblatex modified
+
+## Purpose of This Project
 
 This is a generic template for [[http://en.wikipedia.org/wiki/LaTeX][LaTeX]] documents using [[http://www.komascript.de/][KOMA Script]] classes
 which are pretty common at least in German spoken countries.
@@ -19,7 +39,7 @@ that is optimized to deliver your content.
 
 Please do read [[https://github.com/novoid/LaTeX-KOMA-template/blob/master/Template-Documentation.pdf][Template-Documentation.pdf]].
 
-** Example Documents
+## Example Documents
 
 In case you want to see some example documents generated via this
 template, please do read [[https://github.com/novoid/LaTeX-KOMA-template/blob/master/Hall_of_fame.org][the Hall of Fame]].
@@ -28,7 +48,7 @@ Do me a favor and *do submit your final document* as well. It helps
 other people in their decision process and adds up to a very cool
 collection of results we can be proud of.
 
-** Requirements
+## Requirements
 
 This template uses up-to-date technology like pdflatex, [[http://www.tex.ac.uk/tex-archive/info/translations/biblatex/de/][biblatex]]
 (instead of BibTeX-Format), [[http://en.wikipedia.org/wiki/Biber_(LaTeX)][biber]] (instead of bibtex-compiler), and
@@ -38,7 +58,7 @@ knowledge from tutorial pages such as [[http://LaTeX.TUGraz.at][this one]].
 
 You can find out more in [[https://github.com/novoid/LaTeX-KOMA-template/blob/master/Template-Documentation.pdf][Template-Documentation.pdf]].
 
-** What Makes This Template Special?
+## What Makes This Template Special?
 
 The speciality of this consistent template is, that every setting in
 the preamble is *well documented* (in LaTeX). You can generate the
@@ -54,12 +74,12 @@ This command results in the "[[https://github.com/novoid/LaTeX-KOMA-template/blo
 containing the most current documentation of this template. Please
 refer to this PDF file for further information about the template.
 
-** How to Start?
+## How to Start?
 
 Please do read the "[[https://github.com/novoid/LaTeX-KOMA-template/blob/master/Template-Documentation.pdf][Template-Documentation.pdf]]" file which contains a
 "How to use this LaTeX template" section.
 
-** License
+## License
 
 This template is licensed under a [[https://creativecommons.org/licenses/by-sa/3.0/][Creative Commons
       Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license]]:
@@ -78,6 +98,6 @@ This template is licensed under a [[https://creativecommons.org/licenses/by-sa/3
   resulting (PDF) document!
 - You may remove the colophon (but it's not recommended).
 
-** What Is Still Work in Progress?
+## What Is Still Work in Progress?
 
 Please have a look at the file "[[https://github.com/novoid/LaTeX-KOMA-template/blob/master/template/todos.org][template/todos.org]]".

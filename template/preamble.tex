@@ -549,7 +549,15 @@ BCOR=\myBCOR,        %% binding correction (depends on how you bind
 \usepackage[backend=biber, %% using "biber" to compile references (instead of "biblatex")
 style=\mybiblatexstyle, %% see biblatex documentation
 %style=alphabetic, %% see biblatex documentation
-dashed=\mybiblatexdashed, %% do *not* replace recurring reference authors with a dash
+%dashed=\mybiblatexdashed, %% do *not* replace recurring reference authors with a dash
+isbn=true,
+doi=true,
+url=true,
+giveninits=true,
+%maxnames=16,
+%minnames=16,
+%maxcitenames=2,
+%mincitenames=1,
 backref=\mybiblatexbackref, %% create backlings from references to citations
 natbib=true, %% offering natbib-compatible commands
 hyperref=true, %% using hyperref-package references
@@ -616,7 +624,8 @@ hyperref=true, %% using hyperref-package references
 %doc% This package defines basic colors. If you want to get rid of colored links and headings
 %doc% please change corresponding value in \texttt{main.tex} to \{0,0,0\}.
 \usepackage[usenames,dvipsnames]{xcolor}
-\definecolor{DispositionColor}{RGB}{\mydispositioncolor} %% used for links and so forth in screen-version
+%\definecolor{DispositionColor}{RGB}{\mydispositioncolor} %% used for links and so forth in screen-version
+\definecolor{DispositionColor}{gray}{0} %% used for links and so forth in screen-version
 
 %doc% \item[\texttt{\href{http://www.ctan.org/pkg/ulem}{%%
 %doc% ulem%%
